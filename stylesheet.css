@@ -1,0 +1,124 @@
+P    {
+        text-align: left;
+        color: black;
+        font-family: Verdana, tahoma, arial, Sans-serif;
+        font-size: 10pt;
+        }
+BODY    {
+        text-align: left;
+        color: black;
+        font-family: Verdana, tahoma, arial, Sans-serif;
+        font-size: 10pt;
+        }
+
+H1      {
+        text-align: left;
+        font-family: Verdana, tahoma, arial, Sans-serif;
+        color: #8DAEC0;
+        font-size: 20pt;
+        }
+H2      {
+        text-align: left;
+        font-family: Verdana, tahoma, arial, Sans-serif;
+        color: #496777;
+        font-size: 15pt;
+        }
+
+A       {
+        color:#236464;
+        text-decoration: underline;
+	  font-family: Verdana, tahoma, arial, Sans-serif;
+        font-size: 10pt;
+        }
+A:hover
+        {
+        color:red
+        }
+ .menu { 
+	color: white;
+	font-family:arial,sans-serif; 
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	}
+
+UL
+	{
+	list-style-type: circle;
+	}
+
+TD	{
+	font-family: Verdana, tahoma, arial, Sans-serif;
+	color: black;
+	font-size: 10pt;
+	}
+
+div.photo{
+	padding-bottom: 20px;
+	border-bottom: dashed 1px #AAA;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+div.photoBar{
+	/*vertical-align: middle;*/
+	border: 2px solid purple;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+div.caption{
+	/*border: 1px solid red;*/
+	/*vertical-align: middle;*/
+}
+
+div.buttons{
+	min-width: 150px; /* 5*27+*/
+	height: 25px;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
+	/*display: inline;*/
+	/*border: 1px solid yellow;*/
+	vertical-align: top;
+	text-align: right;
+	/*margin-left: 30px;*/
+}
+
+img.photo{
+	/*display: block;*/
+	border: 0 none;
+}
+
+img.button{
+	display: inline;
+	margin: 0;
+	padding: 0;
+	margin-right: 2px;
+	border: 0 none;
+	width: 25px;
+	height: 25px;
+}
+
+div.timestamp{
+	position: absolute;
+	right: 0px;
+	bottom: 25px;
+	padding: 3px;
+	margin-bottom: 2px;
+	background: #EFE;
+	width: 20em;
+	display: block; /*none;*/
+	visibility: hidden;
+}
+
+div.photoImage{
+	position: relative;
+	padding: 0px;
+	/*border: 2px dashed blue;*/
+	display: inline;
+	height: 100px;
+}
